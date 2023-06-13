@@ -11,7 +11,7 @@ const counter = () => {
     return (
         <div>
             <h1 className="componentHeading"> Counter </h1>
-            <p className="countLabel"> Count: {count} </p>
+            <p className={count > 10 ? "greater-than-ten": ""}  > count Count: {count} </p>
             <button className="fancyButton" onClick={() => incremementCounter}> Increment </button>
             <button className="fancyButton"> Decrement </button>
             <button className="fancyButton"> Reset </button>
