@@ -6,7 +6,14 @@ const counter = () => {
 
     const incremementCounter = () => {
         setCount(count + 1);
-    }
+    };
+     const DecrementCounter = () => {
+        setCount(count - 1);
+        
+    };
+    const ResetCounter = () => {
+        setCount(0)
+    };
 
     return (
         <div>
