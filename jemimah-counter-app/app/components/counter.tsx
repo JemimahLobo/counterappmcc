@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 
-const counter = () => {
+const Counter = () => {
     
     const IncremementCounter = () => {
         setCount(count + 1);
@@ -29,4 +29,4 @@ const counter = () => {
     );
 };
 
-export default counter;
+export default Counter;
